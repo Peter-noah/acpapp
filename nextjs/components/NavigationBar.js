@@ -39,6 +39,7 @@ const NavigationLayout = ({ children }) => {
             {appName}
           </Typography>
           <NavigationLink href="/page1" label="Page1" />
+          <NavigationLink href="/register" label="register" />
           <div style={{ flexGrow: 1 }} />
           <Button
             color="#ffffff"
